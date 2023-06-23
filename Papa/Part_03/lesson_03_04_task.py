@@ -14,11 +14,17 @@ class Restangle:
         return "Coordimates of the restangle: (" + str(self.x) + ";" + str(self.y) + ")" + "\nWidth:" + str(
             self.widgt) + " " + "Hight:" + str(self.hight)
 
-    def setsqr(self, squa):
+    def sqare(self):
         return self.widgt * self.hight
 
+    def per(self):
+        return self.widgt * 2 + self.hight * 2
 
-rest = Restangle(6, 10, 67, 48)
+
+rest = Restangle(6, 10, 10, 20)
 
 print(rest)
-print(rest.setsqr(67, 48))
+print(rest.sqare())
+print(rest.per())
+
+
